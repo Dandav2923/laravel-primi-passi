@@ -8,5 +8,12 @@
 </head>
 <body>
     <h1>hello dev</h1>
+    <header>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="{{route("pagina-1")}}">Pagina 1</a></li>
+            <li><a href="{{route("pagina-2")}}">Pagina 2</a></li>
+        </ul>
+    </header>
 </body>
 </html>
